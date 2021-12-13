@@ -3,12 +3,14 @@ import ReactDOM from "react-dom";
 import "./styles/global-styles.css";
 
 import { Home } from "./templates/Home";
+import { UseCallBackTest } from "./templates/Teste";
 
 ReactDOM.render(
   <React.StrictMode>
     <Home />
+    <UseCallBackTest />
   </React.StrictMode>,
-  document.getElementById("root")
+  document.getElementById("root"),
 );
 
 // If you want to start measuring performance in your app, pass a function
